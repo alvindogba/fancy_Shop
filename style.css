@@ -13,5 +13,70 @@
 
 
 /* Caasim please write your footer style here 👇*/
+.p{
+    color: white;
+}
+.footer{
+    padding: 30px 30px;
+   background-color: rgb(62, 63, 65);
+}
 
+.familytree{
+    display: inline-flex;
+    gap: 20px;
+}
+
+.so{
+    color: green;
+}
+
+.but{
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 5px 20px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 2px solid;
+}
+
+.but:hover{
+    background-color: green;
+}
+
+.Shop{
+    color: rgb(237, 237, 241);
+} 
+
+.fa-brands{
+    color: aliceblue;
+
+}
+
+hr{
+    margin-top: 30px;
+    border-style: dotted;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.one{
+    display: flex;
+    gap: 100px;
+    
+}
+
+.load{
+    width: 50px;
+    height: 30px;
+    gap: 20px;
+}
+
+@media(max-width:700px){ 
+    .familytree{
+        flex-direction: column;
+    }
+
+}
 /* footer style ends here */
